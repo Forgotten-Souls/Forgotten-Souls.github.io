@@ -27,6 +27,7 @@
 .article {
     text-align: left;
 }
+feature{background: black;}
 /* set the header layout area to have a black background with white text */
 header {background: black;color:white;}
 /* set the footer layout area to have a mid-grey background with white text */
