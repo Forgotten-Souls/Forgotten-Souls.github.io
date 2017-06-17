@@ -18,6 +18,14 @@
     flex: 1 100%;
 }
 
+.header-bar {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+	flex: 1 100%;
+}
+
 .title {
     padding: 15px;
 	flex: 3 auto;
@@ -28,15 +36,13 @@
 	flex: 1 auto;
 }
 
-/* set the navigation class style
-   - set background to light grey */
-.navigation {background:#eee;}
-
 /* set article class style.
    -left text align */
-.article {
+.main-article {
     text-align: left;
 }
+/* set the navigation set background to light grey */
+nav {background:#eee;}
 feature{background: black; padding: 0px}
 /* set the header layout area to have a black background with white text */
 header {background: black;color:white;}
