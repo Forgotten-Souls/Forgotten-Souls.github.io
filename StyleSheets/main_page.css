@@ -18,6 +18,10 @@
     flex: 1 100%;
 }
 
+.title {
+    padding: 15px;
+}
+
 /* set the navigation class style
    - set background to light grey */
 .navigation {background:#eee;}
