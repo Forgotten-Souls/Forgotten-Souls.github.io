@@ -1,0 +1,33 @@
+/* set the basic flex-container class style.
+   - set display to flex, great for mobile!
+   - set flow to row wrap, handles smaller screen (raps to a new row)
+   - set text align to center   */
+.page-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+/* set all elements contained in a flex container class's style
+   - 15px padding to anything in a flex container
+   - set flex to 100%   */
+.page-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+/* set the navigation class style
+   - set background to light grey */
+.navigation {background:#eee;}
+
+/* set article class style.
+   -left text align */
+.article {
+    text-align: left;
+}
+/* set the header layout area to have a black background with white text */
+header {background: black;color:white;}
+/* set the footer layout area to have a mid-grey background with white text */
+footer {background:#aaa;color:white;}
