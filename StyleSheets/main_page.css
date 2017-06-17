@@ -20,6 +20,12 @@
 
 .title {
     padding: 15px;
+	flex: 3 auto;
+}
+
+.title-image {
+    padding: 15px;
+	flex: 1 auto;
 }
 
 /* set the navigation class style
@@ -31,7 +37,7 @@
 .article {
     text-align: left;
 }
-feature{background: black;}
+feature{background: black; padding: 0px}
 /* set the header layout area to have a black background with white text */
 header {background: black;color:white;}
 /* set the footer layout area to have a mid-grey background with white text */
